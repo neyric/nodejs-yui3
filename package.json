@@ -19,7 +19,10 @@
         "lib" : "lib"
     },
     "main": "./lib/node-yui3",
-    "bin" : { "yui3docs" : "./cli.js" },
+    "bin" : {
+        "yui3docs" : "./cli.js",
+        "yui3": "./lib/cmdline.js"
+    },
     "dependencies": {
         "yui3-core": ">=3.3.0",
         "jsdom": ">=0.1.23", 
